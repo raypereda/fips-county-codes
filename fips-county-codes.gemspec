@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "fips-county-codes"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ray Pereda"]
@@ -25,8 +25,8 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "fips-county-codes.gemspec",
+    "lib/fips_county_codes.rb",
     "lib/national.txt",
-    "lib/nist_codes.rb",
     "test/fips_lookups_spec.rb",
     "test/helper.rb"
   ]
