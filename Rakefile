@@ -17,7 +17,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fips-county-codes"
   gem.homepage = "http://github.com/raypereda/fips-county-codes"
   gem.license = "MIT"
-  gem.summary = %Q{data structures for query FIPS codes}
+  gem.summary = %Q{data structures for querying FIPS codes}
   #gem.description = %Q{TODO: longer description of your gem}
   gem.email = "ray@nationbuilder.com"
   gem.authors = ["Ray Pereda"]
