@@ -1,4 +1,4 @@
-module NistCodes
+module FipsCountyCodes
   fips = {}
   state_county = {}
 
