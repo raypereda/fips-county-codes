@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fips-county-codes.gemspec",
     "lib/national.txt",
     "lib/nist_codes.rb",
     "test/fips_lookups_spec.rb",
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "data structures for query FIPS codes"
+  s.summary = "data structures for querying FIPS codes"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
