@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "fips-county-codes"
-  gem.homepage = "http://github.com/rainux/fips-county-codes"
+  gem.homepage = "http://github.com/raypereda/fips-county-codes"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{data structures for query FIPS codes}
+  #gem.description = %Q{TODO: longer description of your gem}
   gem.email = "ray@nationbuilder.com"
   gem.authors = ["Ray Pereda"]
   # dependencies defined in Gemfile
@@ -30,14 +30,6 @@ Rake::TestTask.new(:test) do |test|
   test.libs << 'lib' << 'test'
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
-end
-
-require 'rcov/rcovtask'
-Rcov::RcovTask.new do |test|
-  test.libs << 'test'
-  test.pattern = 'test/**/test_*.rb'
-  test.verbose = true
-  test.rcov_opts << '--exclude "gems/*"'
 end
 
 task :default => :test
