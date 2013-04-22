@@ -2,7 +2,10 @@ module FipsCountyCodes
   fips = {}
   state_county = {}
 
-  File.open('lib/national.txt') do |f|
+  LIB_DIRECTORY = File.expand_path(File.dirname(__FILE__))
+  FIPS_CODES_CSV_FILE = File.join(LIB_DIRECTORY, 'national.txt')
+
+  File.open(FIPS_CODES_CSV_FILE) do |f|
     f.readline # skip the first line with headers
 
     until f.eof
