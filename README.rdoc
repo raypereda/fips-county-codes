@@ -1,6 +1,8 @@
 = fips-county-codes
+To use:
+require "fips_county_codes"
 
-from the tests:
+These test cases show the usage:
 * FipsCountyCodes::FIPS['CA']['Los Angeles'].should == 6037
 * FipsCountyCodes::FIPS['CA']['Los Angeles County'].should == 6037
 * FipsCountyCodes::STATE_COUNTY[6037].should == ['CA', 'Los Angeles County']

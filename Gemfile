@@ -5,5 +5,5 @@ group :development, :test do
   gem 'pry-nav'
   gem 'rspec'
   gem 'bundler'
-  gem 'jeweler', "~> 1.8.4"
+  gem 'jeweler'
 end

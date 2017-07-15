@@ -18,8 +18,13 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/raypereda/fips-county-codes"
   gem.license = "MIT"
   gem.summary = %Q{data structures for querying FIPS codes}
-  #gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "ray@nationbuilder.com"
+  gem.description = <<-EOF
+  fips-county-code provides two hashes for converting between state and county pairs to FIPS codes. 
+  The FIPS county code is a five-digit Federal Information Processing Standards (FIPS). 
+  It uniquely identifies counties and county equivalents in the United States.
+  This may be useful to you if you are processing voter data.
+  EOF
+  gem.email = "raypereda@gmail.com"
   gem.authors = ["Ray Pereda"]
   # dependencies defined in Gemfile
 end
